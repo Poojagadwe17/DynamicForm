@@ -1,0 +1,201 @@
+.app {
+
+  align-items: center;
+  height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.formField {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.formField>* {
+  flex: 1;
+  margin-right: 10px;
+  max-width: calc(50% - 5px);
+  box-sizing: border-box;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.addButton {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.saveButton {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px 10px;
+  background-color: #6a096a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addOptionButton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.closeButton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #FF5555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modalContent {
+  display: flex;
+  justify-content: end;
+}
+
+.okButton {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #095e07;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button {
+  margin-right: 10px;
+}
+
+.submitButton {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #34a237;
+  ;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+
+}
+
+select {
+  margin-bottom: 10px;
+
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+
+}
+
+.removeButton {
+  margin-left: 30px;
+  margin-top: 25px;
+  padding: 3px 8px;
+  background-color: #ff5555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.crossIcon {
+  margin-left: 30px;
+  margin-top: 25px;
+  font-size: 18px;
+  color: #ff5555;
+  cursor: pointer;
+  width: 20px;
+}
+
+.errorText {
+  color: #ff5555;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
